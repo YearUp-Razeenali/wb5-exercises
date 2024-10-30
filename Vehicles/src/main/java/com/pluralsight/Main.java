@@ -5,7 +5,11 @@ public class Main {
 
         Vehicle vehnum1 = new Vehicle();
         vehnum1.setColor("Blue");
-        vehnum1.setType("Moped");
+        vehnum1.setType("Bicycle");
+
+
+        Vehicle vehnum2 = new Vehicle("Car", "Red", 12, 23, 43);
+
 
         System.out.println(vehnum1);
 

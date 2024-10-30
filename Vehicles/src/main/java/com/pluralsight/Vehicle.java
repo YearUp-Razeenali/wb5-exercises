@@ -2,6 +2,28 @@ package com.pluralsight;
 
 public class Vehicle {
 
+    private String type;
+    private String color;
+    private int numberOfPassengers;
+    private int cargoCapacity;
+    private int fuelCapacity;
+
+    public Vehicle(String type, String color, int numberOfPassengers, int cargoCapacity, int fuelCapacity) {
+        this.type = type;
+        this.color = color;
+        this.numberOfPassengers = numberOfPassengers;
+        this.cargoCapacity = cargoCapacity;
+        this.fuelCapacity = fuelCapacity;
+    }
+
+    public Vehicle() {
+        this.type = type;
+        this.color = color;
+        this.numberOfPassengers = numberOfPassengers;
+        this.cargoCapacity = cargoCapacity;
+        this.fuelCapacity = fuelCapacity;
+    }
+
     public String getColor() {
         return color;
     }
@@ -41,12 +63,6 @@ public class Vehicle {
     public void setType(String type) {
         this.type = type;
     }
-
-    private String type;
-    private String color;
-    private int numberOfPassengers;
-    private int cargoCapacity;
-    private int fuelCapacity;
 
 
     @Override
